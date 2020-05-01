@@ -6,14 +6,14 @@ performance graphs for the algorithms and completed practical sheets.
 
 ## Lab 1
 
-###Russian Peasant Multiplication
+### Russian Peasant Multiplication
 An algorithm for multiplication that uses doubling, halving, and addition.
 
 * RussianPeasantMultiplication.java
 * Performance graph for various couples of numbers.
 * Analysis of Algorithms practical sheet.
 
-####Compile
+#### Compile
 
 ```
 javac RussianPeasantMultiplication.java
@@ -201,19 +201,19 @@ Merge sort and enhanced merge sort and performance difference compared to insert
 * Performance graph.
 * Advanced Sorting Algorithms practical sheet.
 
-####Compile
+###Compile
 
 ```
 javac sortingAlgorithms.java
 ```
 
-####Then run
+###Then run
 
 ```
 java sortingAlgorithms
 ```
 
-####Example result after running
+###Example result after running
 
 ```
 The time taken for insertion 1k int 4
@@ -248,19 +248,19 @@ Quick sort and performance difference compared to merge sort.
 * Performance graph.
 * Efficient Sorting Algorithms practical sheet.
 
-####Compile
+###Compile
 
 ```
 javac sortingAlgorithms.java
 ```
 
-####Then run
+###Then run
 
 ```
 java sortingAlgorithms
 ```
 
-####Example result after running
+###Example result after running
 
 ```
 The time taken for quickSort 1k int 1
@@ -293,7 +293,7 @@ Brute force search and Knuth–Morris–Pratt algorithms, finds index of a subst
 * Performance graph.
 * Substring Search practical sheet.
 
-####First compile both files
+###First compile both files
 
 ```
 javac bruteForceSearch.java
@@ -303,13 +303,13 @@ javac bruteForceSearch.java
 javac KMPsearch.java
 ```
 
-####Then run them
+###Then run them
 
 ```
 java bruteForceSearch
 ```
 
-####Example result after running
+###Example result after running
 
 ```
 500
@@ -326,13 +326,13 @@ the time taken 1.061575
 the time taken 0.81057
 ```
 
-####And run the second algorithm
+###And run the second algorithm
 
 ```
 java KMPsearch
 ```
 
-####Example result after running
+###Example result after running
 
 ```
 500
@@ -360,19 +360,19 @@ Trie.java builds a trie from a string array of words. The searches for words tha
 * Trie.java
 * Tries practical sheet.
 
-####Compile
+###Compile
 
 ```
 javac Trie.java
 ```
 
-####Then run
+###Then run
 
 ```
 java Trie
 ```
 
-####Example result after running
+###Example result after running
 
 ```
 Not present in trie
