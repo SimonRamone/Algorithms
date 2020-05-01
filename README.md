@@ -19,13 +19,13 @@ An algorithm for multiplication that uses doubling, halving, and addition.
 javac RussianPeasantMultiplication.java
 ```
 
-####Then run
+#### Then run
 
 ```
 java RussianPeasantMultiplication
 ```
 
-####Expected result after running
+#### Expected result after running
 
 ```
 4464 * 9389 = 41912496
@@ -34,7 +34,7 @@ The time taken 31
 
 ## Lab 2
 
-###Complexity Analysis
+### Complexity Analysis
 Two algorithms with different complexity that count the number of triples in a
 file of N integers that sums to 0.
 
@@ -45,7 +45,7 @@ file of N integers that sums to 0.
 * Performance graph for visualizing the vastly different performance.
 * Complexity Analysis practical sheet.
 
-####First compile both files
+#### First compile both files
 
 ```
 javac ThreeSumA.java
@@ -55,26 +55,26 @@ javac ThreeSumA.java
 javac ThreeSumB.java
 ```
 
-####Then run them, entering the integer file after
+#### Then run them, entering the integer file after
 
 ```
 java ThreeSumA 1Kints.txt
 ```
 
-####Expected result after running
+#### Expected result after running
 
 ```
 70
 the time taken 338
 ```
 
-####And run the second algorithm
+#### And run the second algorithm
 
 ```
 java ThreeSumB 1Kints.txt
 ```
 
-####Expected result after running
+#### Expected result after running
 
 ```
 count =70
@@ -85,7 +85,7 @@ the time taken 95
 
 ### Recursion
 
-####Fibonacci and Towers of Hanoi
+#### Fibonacci and Towers of Hanoi
 
 Two algorithms for calculating the first n numbers of Fibonacci sequence, 
 one is iterative and the other is rcursive.
@@ -97,19 +97,19 @@ A recursive algorithm for calculating the moves for n disks to solve Towers of H
 * Performance graphs.
 * Recursion practical sheet.
 
-####Compile
+#### Compile
 
 ```
 javac Fibonacci.java
 ```
 
-####Then run
+#### Then run
 
 ```
 java Fibonacci
 ```
 
-####Expected result after running
+#### Expected result after running
 
 ```
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887 9227465 14930352 24157817 39088169 63245986 
@@ -119,13 +119,13 @@ The time taken iterative: 22
 The time taken recursive: 971
 ```
 
-####And compile algorithm for Hanoi
+#### And compile algorithm for Hanoi
 
 ```
 javac Hanoi.java
 ```
 
-####Then run
+#### Then run
 
 ```
 java Hanoi
@@ -159,19 +159,19 @@ A recursive algorithm for calculating the moves for n disks to solve Towers of H
 * Performance graph.
 * Elementary Sorting practical sheet.
 
-####Compile
+#### Compile
 
 ```
 javac sortingAlgorithms.java
 ```
 
-####Then run
+#### Then run
 
 ```
 java sortingAlgorithms
 ```
 
-####Example result after running
+#### Example result after running
 
 ```
 The time taken for selection 1k int 5
@@ -201,19 +201,19 @@ Merge sort and enhanced merge sort and performance difference compared to insert
 * Performance graph.
 * Advanced Sorting Algorithms practical sheet.
 
-###Compile
+#### Compile
 
 ```
 javac sortingAlgorithms.java
 ```
 
-###Then run
+#### Then run
 
 ```
 java sortingAlgorithms
 ```
 
-###Example result after running
+#### Example result after running
 
 ```
 The time taken for insertion 1k int 4
@@ -248,19 +248,19 @@ Quick sort and performance difference compared to merge sort.
 * Performance graph.
 * Efficient Sorting Algorithms practical sheet.
 
-###Compile
+#### Compile
 
 ```
 javac sortingAlgorithms.java
 ```
 
-###Then run
+#### Then run
 
 ```
 java sortingAlgorithms
 ```
 
-###Example result after running
+#### Example result after running
 
 ```
 The time taken for quickSort 1k int 1
@@ -293,7 +293,7 @@ Brute force search and Knuth–Morris–Pratt algorithms, finds index of a subst
 * Performance graph.
 * Substring Search practical sheet.
 
-###First compile both files
+#### First compile both files
 
 ```
 javac bruteForceSearch.java
@@ -303,13 +303,13 @@ javac bruteForceSearch.java
 javac KMPsearch.java
 ```
 
-###Then run them
+#### Then run them
 
 ```
 java bruteForceSearch
 ```
 
-###Example result after running
+#### Example result after running
 
 ```
 500
@@ -326,13 +326,13 @@ the time taken 1.061575
 the time taken 0.81057
 ```
 
-###And run the second algorithm
+#### And run the second algorithm
 
 ```
 java KMPsearch
 ```
 
-###Example result after running
+#### Example result after running
 
 ```
 500
@@ -360,19 +360,19 @@ Trie.java builds a trie from a string array of words. The searches for words tha
 * Trie.java
 * Tries practical sheet.
 
-###Compile
+#### Compile
 
 ```
 javac Trie.java
 ```
 
-###Then run
+#### Then run
 
 ```
 java Trie
 ```
 
-###Example result after running
+#### Example result after running
 
 ```
 Not present in trie
@@ -395,13 +395,13 @@ RunLengthEncoding.java takes in a string as a command line argument and returns 
 * Run Length Compression practical sheet.
 * Files and algorithms to help complete the practical sheet.
 
-####Compile
+#### Compile
 
 ```
 javac RunLengthEncoding.java
 ```
 
-####Then run
+#### Then run
 
 ```
 java RunLengthEncoding
