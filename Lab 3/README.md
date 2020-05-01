@@ -46,7 +46,7 @@ javac Hanoi.java
 java Hanoi
 ```
 
-####Expected result after running
+#### Expected result after running
 
 ```
 Move disk from A to B
