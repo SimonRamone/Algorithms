@@ -3,7 +3,7 @@ import java.lang.*;
 class Hanoi {
 	public static int moves = 0;
 	public static void main(String[] args) {
-		int disks = 15;
+		int disks = 3;
 		final long startTime1 = System.currentTimeMillis(); 
 		towersOfHanoi(disks, 'A', 'C', 'B');
 		final long elapsedTime1 = System.currentTimeMillis() - startTime1;

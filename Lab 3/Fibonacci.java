@@ -2,23 +2,25 @@ import java.lang.*;
 
 class Fibonacci {
 	public static void main(String[] args) {
+		int n = 40;		//first n numbers of fibonacci sequence
+		
 		//Fibonacci Iterative
 		final long startTime1 = System.currentTimeMillis(); 
-		for(int i = 0; i <= 35; i++)
+		for(int i = 0; i <= n-1; i++)
 			System.out.print(FibonacciIterative(i) + " ");
 		final long elapsedTime1 = System.currentTimeMillis() - startTime1;
 		System.out.println();
-		System.out.println("The time taken " + elapsedTime1);
+		System.out.println("The time taken iterative: " + elapsedTime1);
 		
 		System.out.println();
 		
 		//Fibonacci Recursive
 		final long startTime2 = System.currentTimeMillis(); 
-		for(int i = 0; i <= 35; i++)
+		for(int i = 0; i <= n-1; i++)
 			System.out.print(FibonacciRecursive(i) + " ");
 		final long elapsedTime2 = System.currentTimeMillis() - startTime2; 
 		System.out.println();
-		System.out.println("The time taken " + elapsedTime2);
+		System.out.println("The time taken recursive: " + elapsedTime2);
 	}
 	
 	public static int FibonacciRecursive(int n){
